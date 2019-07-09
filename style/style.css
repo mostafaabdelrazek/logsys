@@ -1,0 +1,191 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+html , body{
+    height:100%;
+    margin:0px;
+
+}
+body{
+    background-image: url('../img/b4.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapp{
+    min-height:100%;
+    margin-bottom: -20px;
+    
+
+}
+header{
+    background:#f7f7f7e6;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.d-icon{
+    padding: 0px;
+    text-align: center;
+}
+.d-icon i{
+    color: #3b3b3b;
+}
+.d-icon i:hover{
+    color:#b1aaaa;
+}
+
+.d-options ul li{
+    list-style:none;
+    text-align:center;
+}
+.d-options ul li a{
+    text-decoration:none;
+     font-size:18px;
+    color: #3b3b3b;
+}
+.d-options ul li a:hover{
+    color:#b1aaaa;
+}
+
+
+.d-logout form{
+     display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+  
+
+}
+.d-logout form button{
+    width:75px;
+    height:30px;
+    cursor:pointer;
+    border:none;
+    border-radius: 4px;
+    font-weight:bold;
+    background: #e8e8e8;
+    color:#858585;
+}
+.d-logout form button:hover{
+    color:#e8e8e8;
+    background:#9c3c3c9e;
+}
+/* the end of header */
+
+/* signup and login form end */
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    margin: 40px 0px;
+
+}
+.d-login , .d-signup , .d-res{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    
+    background:#ffffffd1;
+}
+.d-login form , .d-signup form , .d-res form{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+
+.d-login form input , .d-signup form input , .d-res form input{
+    width: 300px;
+    height: 40px;
+    margin: 35px 0px;
+    padding-left:30px;
+    padding-top:10px;
+    font-size:18px;
+    border:none;
+    border-bottom: 1.5px solid #e4e4e4;
+}
+.d-login form input:hover , .d-signup form input:hover , .d-res form input:hover{
+    background: #f7f7f778;
+    border-bottom: 1.5px solid #00c5f8;
+}
+.d-login form button , .d-signup form button,.d-res form button{
+    margin-top:30px;
+    margin-bottom:15px;
+    width:110px;
+    height:35px;
+    border:none;
+    background:#e8e8e8;
+    cursor:pointer;
+    border-radius: 4px;
+    font-weight:bold;
+    color: #858585;
+}
+.d-login form button:hover , .d-signup form button:hover,.d-res form button:hover{
+    
+    background:#12bc7d;
+    color:#e8e8e8; 
+    font-size:16px;
+    width:115px;
+}
+
+.d-login span , .d-signup form label{
+    color:#c83434f7;
+}
+.d-login span p{
+    color: black;
+    padding-bottom:7px;
+}
+.d-signup label p{
+    color: #12bc7d;
+    font-weight: bold;
+}
+.h-signup{
+    margin:10px 0px;
+    margin-bottom:60px;
+}
+/* signup and login form end */
+.d-success{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top: 15px; 
+}
+
+.d-success p{
+    color:#076643;
+    font-size:18px;  
+    padding:15px 150px;
+    border-radius:5px;
+    background: #f7f7f778;;  
+}
+/* the end of login*/
+/*the start of footer*/
+
+.push , footer{
+    height:20px;
+}
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    background:#f7f7f7e6;
+}
+footer p{
+    padding-right:15px;
+    font-size:12px;
+    padding-top:4px;
+}
